@@ -140,7 +140,6 @@ const inimesteAndmed = [
 
 
 inimesteAndmed.forEach(inimene => {
-    console.log(inimene.isikukood[5]+inimene.isikukood[6]+" "+inimene.isikukood[3]+inimene.isikukood[4])
+    console.log(inimene.isikukood[5]+inimene.isikukood[6]+"."+inimene.isikukood[3]+inimene.isikukood[4]+"."+inimene.isikukood[1]+inimene.isikukood[2])
     
 });
-console.log(inimesteAndmed)
