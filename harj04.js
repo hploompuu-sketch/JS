@@ -125,3 +125,22 @@ const puhastanimed = (nimed) => {
 }
 
 puhastanimed(nimed)
+
+// Sünniaeg ja vanus
+// Kasuta objektide massiivi ja lisa meetod, mis leiab inimeste sünniaja ja vanuse
+
+const inimesteAndmed = [
+    { nimi: "Mari Maasikas", isikukood: "38705123568" },
+    { nimi: "Jaan Jõesaar", isikukood: "49811234567" },
+    { nimi: "Kristiina Kukk", isikukood: "39203029876" },
+    { nimi: "Margus Mustikas", isikukood: "49807010346" },
+    { nimi: "Jaak Järve", isikukood: "39504234985" },
+    { nimi: "Kadi Kask", isikukood: "39811136789" },
+];
+
+
+inimesteAndmed.forEach(inimene => {
+    console.log(inimene.isikukood[5]+inimene.isikukood[6]+" "+inimene.isikukood[3]+inimene.isikukood[4])
+    
+});
+console.log(inimesteAndmed)
